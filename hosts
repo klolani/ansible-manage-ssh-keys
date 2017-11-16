@@ -1,0 +1,24 @@
+[ke]
+ke-dev ansible_ssh_host=
+ke-prd ansible_ssh_host=
+ke-staging ansible_ssh_host=
+
+[mx]
+mx-dev ansible_ssh_host=
+mx-prd ansible_ssh_host=
+mx-staging ansible_ssh_host=
+
+[tz]
+tz-dev ansible_ssh_host=
+tz-prd ansible_ssh_host=
+tz-staging ansible_ssh_host=
+
+[ph]
+ph-dev ansible_ssh_host=
+ph-prd ansible_ssh_host=
+ph-staging ansible_ssh_host=
+
+[shared-keys:children]
+ke
+mx
+tz
